@@ -23,5 +23,17 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "mikro-orm": {
+    "useTsNode": true,
+    "configPaths": [
+      "./src/mikro-orm.config.ts",
+      "./dist/mikro-orm.config.js"
+    ]
+  },
+  "dependencies": {
+    "@mikro-orm/core": "^4.5.10",
+    "@mikro-orm/postgresql": "^4.5.10",
+    "pg": "^8.7.1"
   }
 }
